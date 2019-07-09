@@ -1,0 +1,121 @@
+$primary_color:#FF4384;
+$primary_color_light:#FFEDF7;
+$secondary_color:#00A7FF;
+$secondary_color_light:#E5F3FF;
+
+$bg_color:#003164;
+
+.main_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 800px;
+    padding: 48px 85px;
+    background: linear-gradient(to right,
+            $primary_color_light 65%, $bg_color 65%);
+
+    .content_left {
+        background-color: red;
+        opacity: 0.5;
+        width: 445px;
+        height: 100%;
+    }
+
+    .content_center {
+        // background-color: blue;
+        // opacity: 0.5;
+        width: 600px;
+        height: 100%;
+        padding: 0 30px;
+
+    }
+
+    .content_right {
+        // background-color: green;
+        // opacity: 0.5;
+        width: 1280px - 445px - 600px - 85px * 2;
+        height: 100%;
+    }
+}
+// content_left ---------------------- //
+.content_left{
+input {
+    width: 455px;
+    height: 56px;
+    background-color: #FFF;
+
+}
+}
+// content_center
+.content_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content_center_player {
+        background-color: $primary_color;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        border: 4px solid $primary_color;
+
+        &:hover {
+            background-color: #FFF;
+        }
+    }
+
+    .secondCircle {
+        border-radius: 50%;
+        border: 4px solid $primary_color;
+        position: relative;
+        top: -24px;
+        left: -24px;
+        width: 540px;
+        height: 540px;
+        stroke-dasharray: 334%;
+        stroke-dashoffset: 334%;
+        stroke: $primary_color;
+        fill: none;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+
+        &:hover {
+            stroke-dashoffset: 28.5%;
+        }
+    }
+}
+
+// content_right
+.content_right {
+    color: #fff;
+
+    .content_right_list {
+        // background-color: orange;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        i {
+            font-size: 36px;
+            width: 36px;
+            height: 36px;
+            margin-bottom: 48px;
+        }
+
+        span {
+            // background-color: blue;
+            // font-family: Futura;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: auto;
+            padding-right: 120px;
+            transform: rotate(90deg);
+        }
+    }
+
+}
