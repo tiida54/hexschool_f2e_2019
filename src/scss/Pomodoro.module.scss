@@ -6,6 +6,7 @@ $secondary_color_light:#E5F3FF;
 $bg_color:#003164;
 
 .main_01 {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,8 +17,8 @@ $bg_color:#003164;
             $primary_color_light 65%, $bg_color 65%);
 
     .content_left {
-        background-color: red;
-        opacity: 0.5;
+        // background-color: red;
+        // opacity: 0.5;
         width: 445px;
         height: 100%;
     }
@@ -38,14 +39,42 @@ $bg_color:#003164;
         height: 100%;
     }
 }
-// content_left ---------------------- //
-.content_left{
-input {
-    width: 455px;
-    height: 56px;
-    background-color: #FFF;
 
+// content_left ---------------------- //
+.content_left {
+    form{
+        margin-bottom: 200px;
+    }
+    input {
+        width: 90%;
+        height: 56px;
+        padding: 1.25rem 3.75rem 1.25rem 1.25rem;
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+        color: $primary_color;
+    }
+    button {
+        width: 10%;
+        height: 56px;
+        position: relative;
+        top: 30px;
+        // left: 240px;
+        transform: translateY(-50%);
+        font-size: 24px;
+        font-weight: bold;
+        color: $primary_color;
+        border: 0;
+        background: #fff;
+        cursor: pointer;
+    }
 }
+.time_countdown {
+    background: none;
+    line-height: 1;
+    font-size: 176px;
+    font-weight: bold;
+    color: #FF4384;
 }
 // content_center
 .content_center {
@@ -86,6 +115,17 @@ input {
         &:hover {
             stroke-dashoffset: 28.5%;
         }
+    }
+    .secondCenter{
+        width:96px;
+        height:96px;
+
+        position: relative;
+        top:-70%;
+        left:40%;
+        border-radius: 50%;
+        background-color: #FFF;
+    
     }
 }
 

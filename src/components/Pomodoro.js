@@ -6,14 +6,27 @@ function Pomodoro() {
   return (
     <div className={styles.main_01}>
       <div className={styles.content_left}>
-      <input type="text" className={styles.add_mission} name="addMission" placeholder="add a new mission…"/>
+        <form >
+          <input type="text" placeholder="Add a new task..." />
+          <button>＋</button>
+        </form>
+        <div>
+          <div className={styles.time_head}>
+            <div class="current-task__content-wrapper">
+              <h2 class="current-task__name">BBQ in the wilderness</h2>
+            </div>
+          </div>
+          <div class="current-task__highlight">
+            <mark className={styles.time_countdown}>00:10</mark>
+          </div>
+        </div>
       </div>
       <div className={styles.content_center}>
         <div className={styles.content_center_player}>
           <svg className={styles.secondCircle} >
             <circle id="secondCircle" cx="50%" cy="50%" r="260px" stroke-width="26px"></circle>
           </svg>
-          {/* <span id="secondText" class="time">00</span><span class="time-info">s</span> */}
+          <div className={styles.secondCenter}></div>
         </div>
       </div>
 
