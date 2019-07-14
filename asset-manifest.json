@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hexschool_f2e_2019/static/css/main.843632cb.chunk.css",
+    "main.js": "/hexschool_f2e_2019/static/js/main.9535c23e.chunk.js",
+    "main.js.map": "/hexschool_f2e_2019/static/js/main.9535c23e.chunk.js.map",
+    "runtime~main.js": "/hexschool_f2e_2019/static/js/runtime~main.4d2a0e57.js",
+    "runtime~main.js.map": "/hexschool_f2e_2019/static/js/runtime~main.4d2a0e57.js.map",
+    "static/js/2.cf0d62a8.chunk.js": "/hexschool_f2e_2019/static/js/2.cf0d62a8.chunk.js",
+    "static/js/2.cf0d62a8.chunk.js.map": "/hexschool_f2e_2019/static/js/2.cf0d62a8.chunk.js.map",
+    "index.html": "/hexschool_f2e_2019/index.html",
+    "precache-manifest.0bc488bb69dcbc6f3da26cfd0accfd8e.js": "/hexschool_f2e_2019/precache-manifest.0bc488bb69dcbc6f3da26cfd0accfd8e.js",
+    "service-worker.js": "/hexschool_f2e_2019/service-worker.js",
+    "static/css/main.843632cb.chunk.css.map": "/hexschool_f2e_2019/static/css/main.843632cb.chunk.css.map"
+  }
+}
